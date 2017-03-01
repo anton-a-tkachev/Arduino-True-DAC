@@ -74,7 +74,7 @@ void DAC10OUT(int SETTING){
   digitalWrite( 4, SETTING >>  9 & 1);
 }
 
-// DAC8INIT initializes a 10-bit DAC on pins 6 - 13
+// DAC8INIT initializes a 8-bit DAC on pins 6 - 13
 void DAC8INIT(){
   pinMode(6,OUTPUT);
   pinMode(7,OUTPUT);
