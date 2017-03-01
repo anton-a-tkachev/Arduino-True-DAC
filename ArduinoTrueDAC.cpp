@@ -1,7 +1,7 @@
 //----------------------------------------------------------------------
 // Arduino True DAC Library
 //----------------------------------------------------------------------
-// Implements 12-bit DAC functionality on Arduino pins 2 - 13
+// Implements true DAC functionality on Arduino pins
 
 #ifndef ARDUINOTRUEDAC_cpp
 #define ARDUINOTRUEDAC_cpp
