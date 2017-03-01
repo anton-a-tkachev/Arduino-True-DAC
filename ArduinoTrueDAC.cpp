@@ -25,7 +25,7 @@ void DAC12INIT(){
 
 // The DAC12OUT function sets DAC output
 // Takes SETTING = 0 .. 4095 corresponding to 0 .. 5 V range
-// Estimated time of a run is between 15 and 20 microseconds
+// Estimated execution time is between 15 and 20 microseconds
 void DAC12OUT(int SETTING){
   digitalWrite(13, SETTING       & 1);
   digitalWrite(12, SETTING >>  1 & 1);
