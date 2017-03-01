@@ -5,7 +5,7 @@ This library implements a true 12-bit DAC on Arduino pins 2 - 13 with R-2R resis
 The Digital-Analog Converter (DAC) is formed on pins 2 - 13 with the R-2R ladder which is connected as shown in the diagram.
 The output voltage changes from 0 to 5 V corresponding to the DAC input setting ranged from 0 to 4095 (integer).
 
-![Image of Yaktocat](/diagram12bit.JPG)
+![circuit diagram image](/diagram12bit.JPG)
 
 ## How to use
 
@@ -23,4 +23,4 @@ One can use 1 kOhm resistor for R and 2 kOhm resistor for 2R. The author used 1 
 For better stability output signal filtering is recommended with an RC integrator of 1 kOhm and 100 nF which gives specific time of 100 microseconds.
 
 ## Example Sinewave
-![Image of output sinewave](/scope_output_voltage.png)
+![sinewave oscilloscope screenshot image](/scope_output_voltage.png)
