@@ -20,7 +20,7 @@ Note that DAC12OUT function execution approximately takes 15 to 20 microseconds.
 
 One can use 1 kOhm resistor for R and 2 kOhm resistor for 2R. The author used 1 kOhm and 2 kOhm metal film resistors with 1% accuracy.
 
-For better stability output signal filtering is recommended with an RC integrator of 1 kOhm and 100 nF which gives specific time of 100 microseconds.
+For better stability output signal filtering is recommended with an RC integrator of 1 kOhm and 100 nF which gives integrator specific time of 100 microseconds.
 
 ## Example - Sinewave
 ![sinewave oscilloscope screenshot image](/scope_output_voltage.png)
