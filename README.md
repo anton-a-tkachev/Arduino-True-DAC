@@ -16,7 +16,7 @@ The output voltage changes from 0 to 5 V corresponding to the DAC input setting 
 
 See examples for reference.
 
-Note that DAC12OUT function execution approximately takes 15 to 20 microseconds.
+Note that the execution of `DAC12OUT` approximately takes 17 microseconds.
 
 One can use 1 kOhm resistor for R and 2 kOhm resistor for 2R. The author used 1 kOhm and 2 kOhm metal film resistors with 1% accuracy.
 
