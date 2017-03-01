@@ -14,6 +14,7 @@ How to use
 
 4) Use the DAC12OUT for analog output
 
+See the examples for reference.
 
 Note that DAC12OUT function execution approximately takes from 15 to 20 microseconds.
 
