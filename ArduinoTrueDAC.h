@@ -1,9 +1,7 @@
 //----------------------------------------------------------------------
 // Arduino True DAC Library
 //----------------------------------------------------------------------
-// Implements 12-bit DAC functionality on Arduino pins 2 - 13
-// DAC12INIT - initialized 12-bit true DAC on Arduino
-// DAC12OUT - sets DAC output
+// Implements a true DAC functionality on Arduino digital pins
 
 #include "Arduino.h"
 
