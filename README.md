@@ -10,7 +10,7 @@ The output voltage changes from 0 to 5 V corresponding to the DAC input setting 
 ## How to use
 
 1. Simply download this library folder into your Arduino user libraries folder which is by default located in your Arduino workspace (on Windows 7 its at `C:\Users\%Username%\Documents\Arduino\libraries\`)
-2. Add `#include ArduinoTrueDAC.h` directive to your sketch file
+2. Add `#include "ArduinoTrueDAC.h"` directive to your sketch file
 3. Initialize the DAC in the `setup` function
 4. Use the DAC12OUT for analog output
 
@@ -19,3 +19,6 @@ See examples for reference.
 Note that DAC12OUT function execution approximately takes 15 to 20 microseconds.
 
 One can use 1 kOhm resistor for R and 2 kOhm resistor for 2R. The author used 1 kOhm and 2 kOhm metal film resistors with 1% accuracy.
+
+For better stability output signal filtering is recommended
+
