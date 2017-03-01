@@ -9,7 +9,7 @@ The output voltage changes from 0 to 5 V corresponding to the DAC input setting 
 
 ## How to use
 
-1. Simply download this library folder into your Arduino user libraries folder which is by default located in your Arduino workspace (on Windows 7 its at `C:\Users\%Username%\Documents\Arduino\libraries\`)
+1. Simply download this library folder into your Arduino user libraries folder which is by default located in your Arduino workspace (on Windows 7 it can be found at `C:\Users\%Username%\Documents\Arduino\libraries\`)
 2. Add `#include "ArduinoTrueDAC.h"` directive to your sketch file
 3. Initialize DAC under the `void setup()` with `DAC12INIT` function
 4. Use `DAC12OUT` function for analog output
