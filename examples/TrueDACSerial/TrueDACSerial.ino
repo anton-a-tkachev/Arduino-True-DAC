@@ -2,7 +2,7 @@
 
 void setup() {
   Serial.begin(9600);
-  DAC12INIT();  // initialize the DAC
+  DAC12INIT();  // initialize DAC
 }
 
 void loop() {
