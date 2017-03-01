@@ -1,5 +1,6 @@
 # Arduino-True-DAC
-This library implements a true 12-bit DAC on Arduino pins 2 - 13 with R-2R resistor ladder
+This library implements a true 12-bit DAC on Arduino pins 2 - 13 with R-2R resistor ladder.
+10-bit and 8-bit options also available.
 
 The Digital-Analog Converter (DAC) is formed on pins 2 - 13 with the R-2R ladder which is connected as shown in the diagram.
 The output voltage changes from 0 to 5 V corresponding to the DAC input setting ranged from 0 to 4095 (integer).
