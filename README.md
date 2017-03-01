@@ -14,7 +14,7 @@ The output voltage changes from 0 to 5 V corresponding to the DAC input setting 
 3. Initialize the DAC in the `setup` function
 4. Use the DAC12OUT for analog output
 
-See the examples for the reference.
+See examples for reference.
 
 Note that DAC12OUT function execution approximately takes 15 to 20 microseconds.
 
