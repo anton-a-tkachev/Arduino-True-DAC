@@ -60,7 +60,7 @@ void DAC10INIT(){
 // DAC10OUT sets 10-bit DAC output voltage
 // Takes SETTING = 0 .. 1023 corresponding to 0 .. 5 V output range
 // Voltage resolution: 4.887 mV per count
-// Execution time is under 17 microseconds on Arduino UNO R3, Atmega328P
+// Execution time is at least under 17 microseconds on Arduino UNO R3, Atmega328P
 void DAC10OUT(int SETTING){
   digitalWrite(13, SETTING       & 1);
   digitalWrite(12, SETTING >>  1 & 1);
@@ -89,7 +89,7 @@ void DAC8INIT(){
 // DAC8OUT sets 8-bit DAC output voltage
 // Takes SETTING = 0 .. 256 corresponding to 0 .. 5 V output range
 // Voltage resolution: 19.607 mV per count
-// Execution time is under 17 microseconds on Arduino UNO R3, Atmega328P
+// Execution time is at least under 17 microseconds on Arduino UNO R3, Atmega328P
 void DAC8OUT(int SETTING){
   digitalWrite(13, SETTING       & 1);
   digitalWrite(12, SETTING >>  1 & 1);
